@@ -1,20 +1,25 @@
-package while2;
+package vetores;
 import java.util.Scanner;
-
 public class fatorial {
-    public static void main(String[] args) {
-        Scanner leia = new Scanner(System.in);
-        int n, i, f;
-        System.out.println("digite o numero");
-        n = leia.nextInt();
-        i = 1;
-        f = 1;
-        while(i<=n) {
-        	f = i*f;
-        	i++;
-        	System.out.println("o fatorial de "+n+" ้ igual a="+f);
-        	
-        	
-    }
-}
+	  public static void main(String[] args) {
+	        int[] A = new int[10];
+
+	        Scanner leia = new Scanner (System.in);
+			final int TAM=15;
+			int a[], i, j, b[];
+			a = new int [TAM];
+			b = new int [TAM];
+			
+			for(i=0; i<a.length; i++) {
+				System.out.println("Digite o "+(i+1)+"ยบ termo de A");
+				a[i] = leia.nextInt();
+				}
+			for(i=0; i<a.length; i++) {
+				int fatorial = 1;
+				for(j=1; j<=a[i]; j++)
+					fatorial *= j;
+				b[i] = fatorial;
+				System.out.println("o elemento "+a[i]+" tem o fatorial igual a = "+b[i] );
+			}
+			}
 }
