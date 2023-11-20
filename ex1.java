@@ -1,24 +1,26 @@
-package e;
-import java.util.Scanner;
+package matriz;
 public class ex1 {
 	public static void main(String[] args) {
-		Scanner leia = new Scanner(System.in);
-		final int TAM = 10;
-		int i,a[], b[];
-		
-		a = new int[TAM];
-		b = new int[TAM];
-		
-		for (i=0; i<TAM; i++) {
-			System.out.println("Entre com o "+(i+1)+"o. valor");
-			a[i] = leia.nextInt();
-			b[i] = a[i];
-		}
-		for (i=0; i<TAM; i++) {
-			b[i] = (b[i]*b[i]);
-			System.out.println("O "+(i+1)+"o. valor de b eh"+b[i]);
-
+int v [][] = new int[4][4];
+		int i, j;
+		v[0][0] = 2;
+		v[1][0] = 32;
+		v[2][0] = 512;
+		v[3][0] = 8192;
+		for (i=0; i<4; i++) {
+			for (j=0; j<3; j++) {
+				v[i][j+1] = v[i][j]*2;
+				
 				}
+			
+		}
+		for (i=0; i<4; i++) {
+			for (j=0; j<4; j++) {
+				System.out.println(+v[i][j]);
+			}
+		}
+		
+	}
+	}
 
-}
-}
+
