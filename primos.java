@@ -13,7 +13,7 @@ public class primos {
 		for (i=0;  i< a.length; i++) {
 			System.out.println("Digite o "+(i+1)+"termo do vetor a");
 			a[i] = leia.nextInt();
-			if (a[i] % 2 ==0 && a[i] !=2 || a[i] ==9) {
+			if (a[i] % 2 ==0 && a[i] !=2 ) {
 				System.out.println("Número não primo");
 			}
 			else {
