@@ -1,0 +1,44 @@
+:root{
+    --corFundo: rgb(3, 10, 50);
+    --corFonte: rgb(255, 255, 255);
+    --corHover: yellow;
+}
+
+.fundo{
+  background-color: rgb(58, 127, 127);
+}
+
+.nav{
+  background-color:var(--corFundo);
+
+}
+
+
+
+.titulo{
+  color: var(--corFonte);
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 38%;
+}
+
+.navbar {
+ width: 30%;
+ margin-left: 35%;
+ margin-top: 5%;
+ border: none;
+ border-left: solid 10px rgb(255, 255, 255);
+ border-right: solid 10px rgb(255, 255, 255);
+}
+.container-fluid{
+ background-color:var(--corFundo);
+ 
+}
+.navbar-brand{
+  color:var(--corFonte);
+  margin-left: 40%;
+
+}
+
+
+
