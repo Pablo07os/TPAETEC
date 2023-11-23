@@ -2,11 +2,11 @@ package vetores;
 import java.util.Scanner;
 public class regra14 {
 	public static void main(String[] args) {
-        int[] A = new int[10];
+
 
         Scanner leia = new Scanner (System.in);
 		final int TAM=10;
-		int a[], i, j, b[], c[];
+		int a[], i, b[], c[];
 		a = new int [TAM];
 		b = new int [TAM];
 		c = new int [TAM];
