@@ -2,7 +2,7 @@ package vetores;
 import java.util.Scanner;
 public class primos {
 	public static void main(String[] args) {
-        int[] A = new int[10];
+
 
         Scanner leia = new Scanner (System.in);
 		final int TAM=10;
