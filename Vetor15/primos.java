@@ -6,7 +6,7 @@ public class primos {
 
         Scanner leia = new Scanner (System.in);
 		final int TAM=10;
-		int a[], i, j;
+		int a[], i;
 		a = new int [TAM];
 		
 		
